@@ -30,6 +30,7 @@ function SearchBar() {
         paddingLeft: 2,
         borderRadius: "10px",
       }}
+      className="searchBar-parent"
     >
       <input
         type="text"

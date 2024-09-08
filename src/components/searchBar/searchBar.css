@@ -8,4 +8,8 @@
   .searchBar {
     width: 200px;
   }
+
+  .searchBar-parent {
+    display: flex;
+  }
 }

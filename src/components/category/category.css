@@ -26,12 +26,13 @@
 
 /* Custom scrollbar styles for WebKit browsers */
 .category-container::-webkit-scrollbar {
-  width: 0px; /* Width of the scrollbar */
-  height: 2px;
+  width: 10px; /* Width of the scrollbar */
+  height: 7px;
 }
 
 .category-container::-webkit-scrollbar-thumb {
-  background: #888; /* Thumb color */
+  height: 4px;
+  background: #000000; /* Thumb color */
   border-radius: 5px; /* Round the corners of the thumb */
 }
 .category-container::-webkit-scrollbar-track {
