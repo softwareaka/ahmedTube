@@ -34,12 +34,12 @@ body.dark .category-btn span {
 }
 
 body.dark .category-btn:hover {
-  background: #fff;
-  color: black !important;
+  background: #000;
+  color: white !important;
 }
 
 body.dark .category-btn:hover span {
-  color: black !important;
+  color: white !important;
 }
 
 body.dark .videoTags {
