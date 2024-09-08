@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Box>
+    <Box sx={{ backgroundColor: "white" }} className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Main />} />

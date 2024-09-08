@@ -3,7 +3,8 @@ import { Box, CardContent, CardMedia, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import { colors } from "../../constants/colors";
 
-function ChannelCart({ video }) {
+function ChannelCart({ video, marginTop }) {
+  console.log(video);
   return (
     <Box
       sx={{
@@ -14,6 +15,7 @@ function ChannelCart({ video }) {
         alignItems: "center",
         height: "360px",
         margin: "auto",
+        marginTop: marginTop,
       }}
     >
       <Link

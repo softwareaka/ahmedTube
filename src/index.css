@@ -6,3 +6,38 @@
   box-sizing: border-box;
   font-family: "Roboto, sans-serif";
 }
+
+/* navbar.css */
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark a {
+  color: #ffffff;
+}
+
+/* Apply to other elements on your page */
+body.dark .card-media {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark .App {
+  background-color: #222;
+  color: #ddd;
+}
+
+body.dark .category-btn span {
+  color: white !important;
+}
+
+body.dark .category-btn:hover {
+  background: #fff;
+  color: black !important;
+}
+
+body.dark .category-btn:hover span {
+  color: black !important;
+}

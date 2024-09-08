@@ -25,10 +25,14 @@ function VideoCart({ video }) {
         <CardMedia
           image={video?.snippet?.thumbnails?.high?.url}
           alt={video?.snippet?.title}
-          sx={{ width: { xs: "100%", sm: "360px" }, height: "180px" }}
+          sx={{
+            width: { xs: "100%", sm: "360px" },
+            height: "180px",
+          }}
         />
       </Link>
       <CardContent
+        className="card-media"
         sx={{
           background: colors.primary,
           height: "200px",
@@ -36,7 +40,7 @@ function VideoCart({ video }) {
         }}
       >
         <Link to={`/video/${video.id.videoId}`}>
-          <Typography my={"5px"} sx={{ opacity: ".4" }}>
+          <Typography my={"5px"} sx={{ opacity: "0.4" }}>
             {moment(video?.snippet?.publishedAt).fromNow()}
           </Typography>
           <Typography variant="subtitle1" fontWeight={"bold"}>
@@ -58,7 +62,11 @@ function VideoCart({ video }) {
             <Typography variant={"subtitle2"} color={"gray"}>
               {video?.snippet?.channelTitle}
               <CheckCircle
-                sx={{ fontSize: "12px", color: "gray", ml: "5px" }}
+                sx={{
+                  fontSize: "12px",
+                  color: "gray",
+                  ml: "5px",
+                }}
               />
             </Typography>
           </Stack>

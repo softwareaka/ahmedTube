@@ -4,3 +4,25 @@
   text-decoration: none;
   font-family: sans-serif;
 }
+
+/* navbar.css */
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark a {
+  color: #ffffff;
+}
+
+/* Apply to other elements on your page */
+body.dark .some-component {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark .another-component {
+  background-color: #222;
+  color: #ddd;
+}

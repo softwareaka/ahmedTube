@@ -17,8 +17,8 @@ function Category({ selectCategory, selectCat }) {
           className="category-btn"
           style={{
             borderRadius: "0",
-            background: item.name === selectCat && colors.secondary,
-            color: item.name === selectCat && "#fff",
+            background: item.name === selectCat && "black",
+            color: item.name === selectCat && "white",
           }}
           onClick={() => selectCategory(item.name)}
         >
@@ -26,7 +26,7 @@ function Category({ selectCategory, selectCat }) {
             style={{
               color: colors.secondary,
               marginRight: "15px",
-              color: item.name === selectCat ? "#fff" : colors.secondary,
+              color: item.name === selectCat ? "white" : colors.secondary,
             }}
           >
             {item.icon}
