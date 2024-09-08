@@ -16,13 +16,16 @@ body.dark a {
   color: #ffffff;
 }
 
-/* Apply to other elements on your page */
-body.dark .some-component {
-  background-color: #333;
-  color: #fff;
-}
+@media (max-width: 537px) {
+  .navbar {
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 20px;
+  }
 
-body.dark .another-component {
-  background-color: #222;
-  color: #ddd;
+  .searchBar {
+    width: 300px !important;
+  }
 }

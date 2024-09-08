@@ -32,6 +32,7 @@ function Navbar() {
 
   return (
     <Stack
+      className="navbar"
       direction="row"
       alignItems="center"
       justifyContent="space-between"

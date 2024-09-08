@@ -41,3 +41,7 @@ body.dark .category-btn:hover {
 body.dark .category-btn:hover span {
   color: black !important;
 }
+
+body.dark .videoTags {
+  color: white !important;
+}

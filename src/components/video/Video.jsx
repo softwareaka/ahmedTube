@@ -70,6 +70,7 @@ function Video() {
                 deleteIcon={<Tag />}
                 onDelete={() => {}}
                 variant="outlined"
+                className="videoTags"
               />
             ))}
           <Typography variant="h5" fontWeight={"bold"} p={2}>

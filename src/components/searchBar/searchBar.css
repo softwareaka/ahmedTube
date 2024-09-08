@@ -9,9 +9,3 @@
     width: 200px;
   }
 }
-
-@media (max-width: 537px) {
-  .searchBar {
-    width: 100px;
-  }
-}
