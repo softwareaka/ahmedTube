@@ -23,6 +23,7 @@ body.dark a {
     flex-direction: column !important;
     align-items: flex-start !important;
     gap: 20px;
+    padding: 20px !important;
   }
 
   .searchBar {
