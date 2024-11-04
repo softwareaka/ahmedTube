@@ -50,7 +50,7 @@ function Navbar() {
     >
       <div className="logo">
         <Link to="/" style={{ color: darkMode ? "#fff" : "#000" }}>
-          Xoji.tube
+          Ahmed.tube
         </Link>
       </div>
       <SearchBar />
