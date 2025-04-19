@@ -30,7 +30,7 @@ function Video() {
         const relatedDataFetch = await ApiService.fetching(
           `search?part=snippet&relatedToVideoId=${id}&type=video  `
         );
-        setRelatedData(relatedDataFetch);
+        setRelatedData(relatedDataFetch.item);
         console.log(relatedData);
       } catch (err) {
         console.log(err);
