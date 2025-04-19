@@ -16,6 +16,7 @@ import { Loader, Videos } from "../";
 function Video() {
   const [videoDetail, setVideoDetail] = useState(null);
   const [relatedData, setRelatedData] = useState([]);
+  console.log(relatedData);
   const { id } = useParams();
 
   useEffect(() => {
@@ -29,7 +30,7 @@ function Video() {
         const relatedDataFetch = await ApiService.fetching(
           `search?part=snippet&relatedToVideoId=${id}&type=video  `
         );
-        setRelatedData(relatedDataFetch.items);
+        setRelatedData(relatedDataFetch);
         console.log(relatedData);
       } catch (err) {
         console.log(err);
